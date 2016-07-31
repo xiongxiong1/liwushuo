@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>liwushuo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>分地方的地方.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>05B70B181D4B03AF0095D097</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05B70B301D4B03B00095D097</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05B70B3B1D4B03B00095D097</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05EC3B431CF752FD008900EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05EC3B5C1CF752FD008900EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05EC3B671CF752FD008900EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
