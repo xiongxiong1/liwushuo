@@ -38,7 +38,7 @@ static NSString *const reuseID  = @"MYChannelCell";
     [super viewDidLoad];
     //     Do any additional setup after loading the view.
     [self createSearchButton];
-    
+    //随便改改代码试试提交怎么样
 //    [self.view addSubview:self.smallScrollView];
 //    [self.view addSubview:self.sortButton];
     [self.view addSubview:self.bigCollectionView];
@@ -71,7 +71,6 @@ static NSString *const reuseID  = @"MYChannelCell";
     [button setImage:[UIImage imageNamed:@"searchButtonIcon"] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(searchButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-    
 }
 
 //实现搜索按钮的点击事件
