@@ -38,9 +38,6 @@ static NSString *const reuseID  = @"MYChannelCell";
     [super viewDidLoad];
     //     Do any additional setup after loading the view.
     [self createSearchButton];
-    //随便改改代码试试提交怎么样
-//    [self.view addSubview:self.smallScrollView];
-//    [self.view addSubview:self.sortButton];
     [self.view addSubview:self.bigCollectionView];
     
     [self getData];
@@ -60,7 +57,6 @@ static NSString *const reuseID  = @"MYChannelCell";
 //        [self.scrollIdArr addObject:[item.itemObject valueForKey:@"id"]];
 //    }
     self.scrollTitleArr = [NSArray arrayWithArray:self.pullArr];
-//    [self createScrollView];
     [self.bigCollectionView reloadData];
 }
 
@@ -104,7 +100,6 @@ static NSString *const reuseID  = @"MYChannelCell";
 - (UIView *)underLine {
     if (_underLine == nil) {
         _underLine = [[UIView alloc] initWithFrame:CGRectMake(0, 12, 50, 20)];
-//        _underLine.centerX = firstLabel.centerX;
         _underLine.backgroundColor = [UIColor blackColor];
         _underLine.alpha = 0.4;
         _underLine.layer.cornerRadius = 10;
@@ -136,7 +131,6 @@ static NSString *const reuseID  = @"MYChannelCell";
 #pragma mark - UICollectionViewDataSource
 //总个数
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-//    return self.channelList.count;
     return 10;
 }
 

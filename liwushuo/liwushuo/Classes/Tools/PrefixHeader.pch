@@ -18,7 +18,6 @@
 #define NSLog(...) {}
 #endif
 
-
 //宏
 #import "Macros.h"
 
@@ -36,7 +35,5 @@
 #import <MBProgressHUD.h>
 #import <MJRefresh.h>
 #import <FMDB.h>
-
-
 
 #endif /* PrefixHeader_pch */
